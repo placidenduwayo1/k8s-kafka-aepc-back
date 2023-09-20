@@ -123,7 +123,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
     <build>
         <finalName>k8s-kafka-aepc-bs-ms-address</finalName>
         <plugins>
