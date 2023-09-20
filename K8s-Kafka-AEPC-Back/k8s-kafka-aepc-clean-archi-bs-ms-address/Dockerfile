@@ -4,7 +4,7 @@ COPY pom.xml /build/
 COPY src /build/src
 RUN mvn package -DskipTest
 WORKDIR /build/target/
-RUN java -Djarmode=layertools -jar k8s-kafka-avro-aepc-bs-ms-address.jar extract
+RUN java -Djarmode=layertools -jar k8s-kafka-aepc-bs-ms-address.jar extract
 
 FROM maven:3.8.3-openjdk-17-slim
 COPY --from=builder /build/target/dependencies/ ./
