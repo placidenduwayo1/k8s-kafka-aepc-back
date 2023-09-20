@@ -43,7 +43,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>k8s-kafka-aepc-ms-config-svc</finalName>
+        <finalName>k8s-kafka-aepc-ms-config-service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

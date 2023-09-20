@@ -55,7 +55,7 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>k8s-kafka-aepc-ms-registry-svc</finalName>
+		<finalName>k8s-kafka-aepc-ms-registry-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
