@@ -7,10 +7,8 @@ public class Address{
    private int poBox;
    private String city;
    private String country;
-
   public Address() {
   }
-
   public Address(String addressId, int num, String street, int poBox, String city, String country) {
     this.addressId = addressId;
     this.num = num;
@@ -19,31 +17,24 @@ public class Address{
     this.city = city;
     this.country = country;
   }
-
   public String getAddressId() {
     return addressId;
   }
-
   public void setAddressId(String addressId) {
     this.addressId = addressId;
   }
-
   public int getNum() {
     return num;
   }
-
   public void setNum(int num) {
     this.num = num;
   }
-
   public String getStreet() {
     return street;
   }
-
   public void setStreet(String street) {
     this.street = street;
   }
-
   public int getPoBox() {
     return poBox;
   }
@@ -51,11 +42,9 @@ public class Address{
   public void setPoBox(int poBox) {
     this.poBox = poBox;
   }
-
   public String getCity() {
     return city;
   }
-
   public void setCity(String city) {
     this.city = city;
   }
@@ -76,7 +65,7 @@ public class Address{
             ", street name:'" + street + '\'' +
             ", PB:" + poBox +
             ", city:'" + city + '\'' +
-            ", country:'" + country + '\'' +
+            ", residence country:'" + country + '\'' +
             ']';
   }
 }
