@@ -1,0 +1,5 @@
+fr/placide/k8saepccleanarchibsmsaddress/infra/input/controller/AddressControllerTest.class
+fr/placide/k8saepccleanarchibsmsaddress/K8sAepcCleanArchiBsMsAddressApplicationTests.class
+fr/placide/k8saepccleanarchibsmsaddress/infra/output/service/OutputAddressServiceImplementationTest.class
+fr/placide/k8saepccleanarchibsmsaddress/infra/output/service/KafkaProducerAddressServiceImplTest.class
+fr/placide/k8saepccleanarchibsmsaddress/domain/usecase/UseCaseTest.class

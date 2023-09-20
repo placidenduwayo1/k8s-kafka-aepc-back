@@ -1,0 +1,5 @@
+/home/placidenduwayo/workspace/devops/fullstack-5-K8s-Kafka-CI-CD/K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address/src/test/java/fr/placide/k8saepccleanarchibsmsaddress/infra/output/service/OutputAddressServiceImplementationTest.java
+/home/placidenduwayo/workspace/devops/fullstack-5-K8s-Kafka-CI-CD/K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address/src/test/java/fr/placide/k8saepccleanarchibsmsaddress/K8sAepcCleanArchiBsMsAddressApplicationTests.java
+/home/placidenduwayo/workspace/devops/fullstack-5-K8s-Kafka-CI-CD/K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address/src/test/java/fr/placide/k8saepccleanarchibsmsaddress/infra/input/controller/AddressControllerTest.java
+/home/placidenduwayo/workspace/devops/fullstack-5-K8s-Kafka-CI-CD/K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address/src/test/java/fr/placide/k8saepccleanarchibsmsaddress/infra/output/service/KafkaProducerAddressServiceImplTest.java
+/home/placidenduwayo/workspace/devops/fullstack-5-K8s-Kafka-CI-CD/K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address/src/test/java/fr/placide/k8saepccleanarchibsmsaddress/domain/usecase/UseCaseTest.java

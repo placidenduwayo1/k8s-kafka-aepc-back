@@ -1,0 +1,4 @@
+/home/placidenduwayo/workspace/devops/fullstack-5-K8s-Kafka-CI-CD/K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-employee/src/test/java/fr/placide/k8skafkaaepccleanarchibsmsemployee/K8sKafkaAepcCleanArchiBsMsEmployeeApplicationTests.java
+/home/placidenduwayo/workspace/devops/fullstack-5-K8s-Kafka-CI-CD/K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-employee/src/test/java/fr/placide/k8skafkaaepccleanarchibsmsemployee/infra/output/service/OutputEmployeeServiceKafkaProducerImplTest.java
+/home/placidenduwayo/workspace/devops/fullstack-5-K8s-Kafka-CI-CD/K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-employee/src/test/java/fr/placide/k8skafkaaepccleanarchibsmsemployee/infra/output/service/OutputEmployeeServiceImplTest.java
+/home/placidenduwayo/workspace/devops/fullstack-5-K8s-Kafka-CI-CD/K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-employee/src/test/java/fr/placide/k8skafkaaepccleanarchibsmsemployee/domain/usecase/UseCaseTest.java

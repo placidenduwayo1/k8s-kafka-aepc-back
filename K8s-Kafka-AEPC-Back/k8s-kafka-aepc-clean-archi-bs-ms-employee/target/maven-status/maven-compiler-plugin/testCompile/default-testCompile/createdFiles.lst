@@ -1,0 +1,4 @@
+fr/placide/k8skafkaaepccleanarchibsmsemployee/infra/output/service/OutputEmployeeServiceImplTest.class
+fr/placide/k8skafkaaepccleanarchibsmsemployee/infra/output/service/OutputEmployeeServiceKafkaProducerImplTest.class
+fr/placide/k8skafkaaepccleanarchibsmsemployee/K8sKafkaAepcCleanArchiBsMsEmployeeApplicationTests.class
+fr/placide/k8skafkaaepccleanarchibsmsemployee/domain/usecase/UseCaseTest.class

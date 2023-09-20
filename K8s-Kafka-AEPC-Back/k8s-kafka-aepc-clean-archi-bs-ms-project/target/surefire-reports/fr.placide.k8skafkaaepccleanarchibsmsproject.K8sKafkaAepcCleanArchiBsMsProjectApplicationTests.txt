@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.placide.k8skafkaaepccleanarchibsmsproject.K8sKafkaAepcCleanArchiBsMsProjectApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.27 s - in fr.placide.k8skafkaaepccleanarchibsmsproject.K8sKafkaAepcCleanArchiBsMsProjectApplicationTests
