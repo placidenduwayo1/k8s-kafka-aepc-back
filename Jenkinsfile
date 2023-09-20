@@ -59,8 +59,8 @@ pipeline {
         }
         stage('Test business microservices') {
             steps{
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/placidenduwayo1/k8s-kafka-aepc-back.git']])
-                dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address'){
+                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/placidenduwayo1/k8s-kafka-aepc-back.git']])
+                dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address/'){
                     sh 'mvn test'
                 }
                 dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-company/'){
