@@ -11,7 +11,7 @@ pipeline {
                 dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address/'){
                     sh 'mvn clean install'
                 }
-                dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-cmpany/'){
+                dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-company/'){
                     sh 'mvn clean install'
                 }
                 dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-employee/'){
