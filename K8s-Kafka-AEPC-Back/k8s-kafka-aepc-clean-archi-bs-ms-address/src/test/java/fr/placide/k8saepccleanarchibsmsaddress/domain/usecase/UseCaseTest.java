@@ -54,7 +54,6 @@ class UseCaseTest {
                         .sendKafkaAddressAddEvent(Mockito.any(Address.class)),
                 () -> Assertions.assertNotNull(consumedAddress));
     }
-
     @Test
     void saveInDbConsumedAddress() {
         Address newAddress = new Address(
@@ -69,7 +68,6 @@ class UseCaseTest {
             Assertions.assertEquals(address, savedAddress);
         });
     }
-
     @Test
     void findAddressByInfo() {
         AddressDto addressDto = new AddressDto(
@@ -82,7 +80,6 @@ class UseCaseTest {
             Assertions.assertEquals(0, actual.size());
         });
     }
-
     @Test
     void getAllAddresses() {
         List<Address> addresses = List.of(address, address, address);
