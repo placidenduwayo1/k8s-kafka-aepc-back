@@ -59,11 +59,11 @@ public class Address{
   public String toString() {
     return "Address [" +
             "address-id:'" + addressId + '\'' +
-            ", street num=" + num +
-            ", street name:'" + street + '\'' +
+            ", street-num=" + num +
+            ", street-name:'" + street + '\'' +
             ", PB:" + poBox +
             ", city:'" + city + '\'' +
-            ", residence country:'" + country + '\'' +
+            ", residence-country:'" + country + '\'' +
             ']';
   }
 }
