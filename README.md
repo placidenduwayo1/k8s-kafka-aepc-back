@@ -30,8 +30,9 @@ application base microservices that manage Addresses, Employees, Projects and Co
   - publish docker images in docker registry.
   - run docker images of microservices of application in docker containers.
  
-    ### summary
- ![my-ci-cd-flow](https://github.com/placidenduwayo1/K8s-Kafka-AEPC-Back/assets/124048212/995d0dc7-368f-48e1-98b1-4c3a216c6f12)
+    ### ci-cd summary
+
+![my-ci-cd-flow](https://github.com/placidenduwayo1/k8s-kafka-aepc-back/assets/124048212/35dcc453-9f99-48bf-b4ee-505ee4230cdd)
 
  ### deployed microservices in docker images
  - kafka infrastructure:
@@ -47,15 +48,14 @@ application base microservices that manage Addresses, Employees, Projects and Co
   - bs-ms-employee
   - bs-ms-company
   - bs-ms-project
+### application architecture
 
-![spring-cloud-microservices-config-server](https://github.com/placidenduwayo1/K8s-Kafka-AEPC-Back/assets/124048212/dd877dc7-88a9-463c-80df-50458d73d13d)
+    ![spring-cloud-microservices-config-server-2](https://github.com/placidenduwayo1/k8s-kafka-aepc-back/assets/124048212/207ee00e-c0ce-4aaf-990b-93880db09bc2)
 
-    
 ## architecture kafka inside business microservice
 - a model is a java bean that is sent as payload using a REST api, a spring service build a kafka message with the model.
 - a spring service uses kafka producer to send the kafka message to kafka topic.
 - a spring service uses kafka consumer to subscribe to the kafka topic and consumes the message from topics that it sends to another spring service either to persist it in db.
-  ### summary    
-![springboot-k8s-kafka-ms-application](https://github.com/placidenduwayo1/K8s-Kafka-AEPC-Back/assets/124048212/a4a573be-350a-4b8e-90a2-0ae37b2a00c1)
-
-
+  ### kafka infra summary    
+![kafka](https://github.com/placidenduwayo1/k8s-kafka-aepc-back/assets/124048212/8ed4f7dc-355c-4dcf-b3fb-5cc5a2fb4a85)
+![kafka](https://github.com/placidenduwayo1/k8s-kafka-aepc-back/assets/124048212/f26f3105-b079-43e2-ba25-67f837d4e881)
