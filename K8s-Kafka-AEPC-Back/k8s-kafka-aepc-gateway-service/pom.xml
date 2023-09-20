@@ -62,7 +62,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 	<build>
 		<finalName>k8s-kafka-aepc-gateway-service</finalName>
 		<plugins>
