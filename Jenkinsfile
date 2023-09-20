@@ -59,7 +59,7 @@ pipeline {
         }
         stage('Test business microservices') {
             steps{
-                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/placidenduwayo1/k8s-kafka-aepc-back.git']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/placidenduwayo1/k8s-kafka-aepc-back.git']])
                 dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address/'){
                     sh 'mvn test'
                 }
@@ -76,16 +76,16 @@ pipeline {
             post {
                 always {
                     dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-address/'){
-                        junit '**/target/surefire-reports/-*.xml'
+                        junit '**/target/surefire-reports/TEST-*.xml'
                     }
                     dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-company/'){
-                        junit '**/target/surefire-reports/-*.xml'
+                        junit '**/target/surefire-reports/TEST-*.xml'
                     }
                     dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-employee/'){
-                        junit '**/target/surefire-reports/-*.xml'
+                        junit '**/target/surefire-reports/TEST-*.xml'
                     }
                     dir('K8s-Kafka-AEPC-Back/k8s-kafka-aepc-clean-archi-bs-ms-project/'){
-                        junit '**/target/surefire-reports/-*.xml'
+                        junit '**/target/surefire-reports/TEST-*.xml'
                     }
                 }
             }
