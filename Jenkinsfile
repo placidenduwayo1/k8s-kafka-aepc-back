@@ -94,8 +94,8 @@ pipeline {
             steps {
                 echo 'Starting to build docker image'
                 script {
-                    sh 'docker compose -f kafka-ms-docker-compose down'
-                    sh 'docker compose -f kafka-ms-docker-compose build'
+                    sh 'docker compose -f kafka-ms-docker-compose.yml down'
+                    sh 'docker compose -f kafka-ms-docker-compose.yml build'
                     sh 'docker system prune -f'
                 }
             }
@@ -105,7 +105,7 @@ pipeline {
                 echo 'Starting to publish docker images into docker registry'
                 script {
                     docker.withRegistry('dockerhubcredentials'){
-                        sh 'docker compose -f kafka-ms-docker-compose push'
+                        sh 'docker compose -f kafka-ms-docker-compose.yml push'
                     }
                 }
             }
