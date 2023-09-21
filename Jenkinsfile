@@ -103,7 +103,7 @@ pipeline {
         stage ('Publish docker images') {
             steps {
                 echo 'Starting to publish docker images into docker registry'
-                docker.withRegistry('','dockerhubcredentials'){
+                docker.withRegistry('dockerhub-credentials'){
                     sh 'docker compose -f kafka-ms-docker-compose.yml push'
                 }
             }
