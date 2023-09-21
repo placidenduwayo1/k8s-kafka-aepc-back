@@ -104,7 +104,7 @@ pipeline {
             steps {
                 echo 'Start publishing docker images into docker registry'
                 script {
-                     docker.withRegistry('dockerhub-credentials'){
+                     docker.withRegistry('https://registry-1.docker.io','dockerhub-credentials'){
                         sh 'docker compose -f kafka-ms-docker-compose.yml push'
                      }
                 }
