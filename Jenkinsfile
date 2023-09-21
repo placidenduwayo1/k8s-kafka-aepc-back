@@ -110,5 +110,13 @@ pipeline {
                 }
             }
         }
+        stage ('Run the stack'){
+            steps {
+                echo 'Start running microservices containers of the application'
+                script {
+                    sh 'docker compose -f kafka-ms-docker-compose.yml up -d'
+                }
+            }
+        }
     }
 }
