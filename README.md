@@ -49,8 +49,7 @@ application base microservices that manage Addresses, Employees, Projects and Co
   - bs-ms-company
   - bs-ms-project
 ### application architecture
-
-    ![spring-cloud-microservices-config-server-2](https://github.com/placidenduwayo1/k8s-kafka-aepc-back/assets/124048212/207ee00e-c0ce-4aaf-990b-93880db09bc2)
+![k8s-containers-orchestration](https://github.com/placidenduwayo1/k8s-kafka-aepc-back/assets/124048212/e6e5cdd7-54c8-4920-a1e5-e89d0e5a91e7)
 
 ## architecture kafka inside business microservice
 - a model is a java bean that is sent as payload using a REST api, a spring service build a kafka message with the model.
